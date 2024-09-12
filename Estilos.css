@@ -1,0 +1,24 @@
+div{
+    border: 1px solid black;
+    margin: 10px;
+}
+#Div_Principal{
+    width: 1330px;
+    height: 630px;
+    border-radius: 10px;
+}
+#DivE0{
+    display:
+}
+#DivE1{
+    display:flex;
+    justify-content:flex-start;
+}
+#DivE2{
+    display:flex;
+    justify-content: center;
+}
+#DivE3{
+    display: flex;
+    justify-content: flex-end;
+}
