@@ -2,17 +2,20 @@ div{
     border: 1px solid black;
     margin: 10px;
 }
-#Div_Principal{
-    width: 1330px;
+button{
+    width: 100px;
+}
+#DivPrincipal{
     height: 630px;
     border-radius: 10px;
 }
 #DivE0{
-    display:
+    display:flex;
+    justify-content: space-around;
 }
 #DivE1{
-    display:flex;
-    justify-content:flex-start;
+    
+    width: 400px;
 }
 #DivE2{
     display:flex;
@@ -21,4 +24,14 @@ div{
 #DivE3{
     display: flex;
     justify-content: flex-end;
+    width: 100px;
+}
+#DivC{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.DivC1{
+    width: 500px;
+    height: 400px;
 }
