@@ -110,3 +110,6 @@ input:focus {
     outline: none;
    
 }
+a:visited{
+    color: aqua;
+}
