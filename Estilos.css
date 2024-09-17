@@ -3,39 +3,48 @@ div{
     margin: 10px;
 }
 .Botones{
-    border-radius: 20px;
+    border-radius: none;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
+    width: 150;
+    background-color: white;
+    border-color: white;
+    cursor: pointer;
+    border: none;
 }
+.Botones:hover{border-block-end:4px solid yellow;}
+
 #DivPrincipal{
-    height: 830px;
+    height: 620px;
     border-radius: 10px;
-    background-color: beige;
-    padding: 10px;
-    margin: 20px;
+    background-color: rgb(255, 255, 255);
 }
 #DivE0{
    display: flex;
    background-color: white;
-   border-radius: 10px;
+   border-radius: 0px;
+   height: 80;
+   border-block-end: 3px solid black;
 }
 #DivE1{
-    flex: 2; 
+    flex: 2;
 }
 #DivE2{
-    padding: 20px;
+    padding: 15px;
     flex: 3;
 }
 #DivE3{
-    flex: 0;
+    padding: 5px;
+    display: flex;
+    flex-direction: row;
 }
 #DivC{  
     display: flex;
 }
 #DivC1{
-    width: 400px;
+    width: 200px;
     height: 650px;
     flex:1;
-    background-color: gray;
+    background-color: rgb(0, 0, 0);
     border-radius: 20px;
 
 }
@@ -51,23 +60,19 @@ div{
     
 }
 #Imagen2{
-    width: 100px;
-    height: 100px; 
+    width: 55px;
+    height: 45px; 
 }
 h1{
     text-align: center;
     font-family: 'Open Sans', sans-serif;
-}
-.Contenedor{
-    width: 400px;
-    height: 20px;
-    border-radius: 10px;
-    background-color: white;
+    color: white;
 }
 .letras{
   padding-left: 30px;
   font-size: 20px;
   font-family: 'Montserrat', sans-serif;
+  color: white;
 }
 input{
     width: 300px;
@@ -75,37 +80,40 @@ input{
     border-radius: 10px;
     background-color: white;
     margin-left: 20px;
-    font-family:Verdana, Geneva, Tahoma, sans-serif
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    border-color: white;
 }
 #mapa{
     border-radius: 20px;
 }
 #boton1{
-    width: 100px;
+    width: 150px;
     height: 50px;
-    border-radius: 20px;
+    border-radius: 15px;
+    margin-left: 10px;
+    margin-top: 30px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;    
+    font-size: 15px;
+    border: none;
+}
+#boton2{
+    width: 150px;
+    height: 50px;
+    border-radius: 15px;
     margin-left: 30px;
     margin-top: 30px;
     font-family:Verdana, Geneva, Tahoma, sans-serif;    
     font-size: 15px;
-}
-#boton2{
-    width: 100px;
-    height: 50px;
-    border-radius: 20px;
-    margin-left: 80px;
-    margin-top: 30px;
-    font-family:Verdana, Geneva, Tahoma, sans-serif;    
-    font-size: 15px;
+    border: none;
 }
 #boton1:hover{
-    background-color: red;
+    background-color: red;color: white;
 }
 #boton2:hover{
-    background-color: rgb(2, 173, 2);
+    background-color: rgb(2, 173, 2);color: white;
 }
 input:focus {
-    border-color: #000000; 
+    border-color: #ffffff; 
     border:3px solid;
     outline: none;
    
