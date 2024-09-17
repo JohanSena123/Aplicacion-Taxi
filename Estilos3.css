@@ -1,0 +1,120 @@
+div{
+    border: 0px solid black;
+    margin: 10px;
+}
+.Botones{
+    border-radius: none;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    width: 150;
+    background-color: white;
+    border-color: white;
+    cursor: pointer;
+    border: none;
+}
+.Botones:hover{border-block-end:4px solid yellow;}
+
+#DivPrincipal{
+    height: 620px;
+    border-radius: 10px;
+    background-color: rgb(255, 255, 255);
+}
+#DivE0{
+    display: flex;
+    background-color: white;
+    border-radius: 0px;
+    height: 80;
+    border-block-end: 3px solid black;
+}
+#DivE1{
+    flex: 2;
+}
+#DivE2{
+    padding: 15px;
+    flex: 3;
+}
+#DivE3{
+    padding: 5px;
+    display: flex;
+    flex-direction: row;
+}
+#DivC{
+    display: flex;
+}
+#DivC1{
+    width: 400px;
+    height: 500px;
+    flex:1;
+    background-color: black;
+    border-radius: 15px;
+
+}
+#DivC2{
+    display: flex;
+    width: 883;
+    flex-direction: column;
+}
+#Imagen1{
+    width: 100%;
+    height: 100%;
+
+
+}
+#Imagen2{
+    width: 55px;
+    height: 45px;
+}
+h1{
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+}
+.letras{
+    padding-left: 30px;
+    font-size: 15px;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+}
+input{
+    width: 300px;
+    height: 30px;
+    border-radius: 10px;
+    background-color: white;
+    margin-left: 20px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    border-color: white;
+}
+#boton1{
+    width: 150px;
+    height: 50px;
+    border-radius: 15px;
+    margin-left: 10px;
+    margin-top: 30px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    border: none;
+}
+#boton2{
+    width: 150px;
+    height: 50px;
+    border-radius: 15px;
+    margin-left: 30px;
+    margin-top: 30px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    border: none;
+}
+#boton1:hover{
+    background-color: red;color: white;
+}
+#boton2:hover{
+    background-color: rgb(2, 173, 2);color: white;
+}
+input:focus {
+    border:3px solid;
+    outline: none;
+}
+.DivC3{width: 860;height: 250;background-color: yellow;border-radius: 15px;}
+.DivC4{display: flex;
+flex-direction: row;}
+.DivC5{border-radius: 15px;border: 2px solid black;cursor: pointer;}
+.DivC5:hover{box-shadow: 4px 4px 4px 4px black;}
