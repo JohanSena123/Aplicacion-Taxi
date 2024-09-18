@@ -113,10 +113,9 @@ input{
     background-color: rgb(2, 173, 2);color: white;
 }
 input:focus {
-    border-color: #ffffff; 
-    border:3px solid;
+    border:3px solid rgb(255, 230, 0) ;
     outline: none;
-   
+    height: 40px;
 }
 a:visited{
     color: aqua;

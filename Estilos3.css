@@ -110,8 +110,9 @@ input{
     background-color: rgb(2, 173, 2);color: white;
 }
 input:focus {
-    border:3px solid;
+    border:3px solid rgb(255, 230, 0) ;
     outline: none;
+    height: 40px;
 }
 .DivC3{width: 860;height: 250;background-color: yellow;border-radius: 15px;}
 .DivC4{display: flex;
