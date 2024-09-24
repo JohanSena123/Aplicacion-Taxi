@@ -120,3 +120,6 @@ input:focus {
 a:visited{
     color: aqua;
 }
+#DivEncuesta{
+    border: 1px solid black;
+}
