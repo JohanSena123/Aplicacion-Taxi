@@ -1,0 +1,91 @@
+div{
+    border: 0px solid black;
+    margin: 10px;
+}
+.Botones{
+    border-radius: none;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    width: 110;
+    background-color: white;
+    border-color: white;
+    cursor: pointer;
+    border: none;
+}
+.Botones:hover{border-block-end:4px solid yellow;}
+
+#DivPrincipal{
+    height: 620px;
+    border-radius: 10px;
+    background-color: rgb(255, 255, 255);
+}
+#DivE0{
+   display: flex;
+   background-color: white;
+   border-radius: 0px;
+   height: 80;
+   border-block-end: 3px solid black;
+}
+#DivE1{
+    flex: 2;
+}
+#DivE2{
+    padding: 15px;
+    flex: 3;
+}
+#DivE3{
+    padding: 5px;
+    display: flex;
+    flex-direction: row;
+}
+#DivC{
+    display: flex;
+}
+#DivC1{
+    width: 400px;
+    height: 500px;
+    display: 1;
+    background-color: black;
+    border-radius: 15px;
+
+}
+#DivC2{
+    display: flex;
+}
+#Imagen1{
+    width: 100%;
+    height: 100%;
+}
+#Imagen2{
+    width: 55px;
+    height: 45px;
+}
+h1{
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+}
+#mapa{
+    border-radius: 20px;
+}
+a:visited{
+    color: aqua;
+}
+.Lista{border-radius: 10px;
+background-color:rgba(202,203,207,255);
+height: 60;
+flex-direction: row;
+display:flex;
+cursor: pointer;
+}
+.Lista:hover{background-color: white;}
+.L_Imagen{border-radius: none;
+    width: 70;
+    height: 50;
+    margin: 5 0 0 25;
+    box-shadow: 1px 1px 5px 1px ;
+}
+.p3{position: static;
+display: flex;padding-left: 9px;font-family: Impact;color: rgb(0, 177, 0);
+}
+.p3 > p {font-family: Arial black;color: black;}
+
