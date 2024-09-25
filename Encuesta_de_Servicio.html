@@ -1,7 +1,6 @@
 <html>
     <head>
-        <title>Reserva</title>
-        <link rel="stylesheet" href="Estilos.css" type="text/css" media="screen">
+        <title>Encuesta de Servicio</title>
         <link rel="stylesheet" href="Estilos5.css" type="text/css" media="screen">
         <link rel="icon" href="Imagen3.jpeg" type="image/x-icon">
     </head>
@@ -39,8 +38,100 @@
             </div>
             <div id="DivC">
                 <div id="DivC1">
-                    <h1>Encuesta</h1> 
-                    <form action=""></form>
+                    <h1>Encuesta</h1>
+                    <form action="index.html">
+                        <div id="DivC3" class="Letras">
+                            <fieldset>
+                                <legend>Información Personal</legend>
+                                <label for="Nombre">Nombres</label>
+                                <input type="text" id="Nombre" placeholder="Nombres*">
+
+                                <label for="Apellidos">Apellidos</label>
+                                <input type="text" id="Apellidos" placeholder="Apellidos*">
+
+                                <label for="Identificacion">Identificacion</label>
+                                <input type="text" id="Identificacion" placeholder="Identificacion*">
+
+                                <label for="Correo">Correo electronico</label>
+                                <input type="email" id="Correo" placeholder="Correo electronico*">
+
+                                <label>Genero</label>
+                                <div>
+                                    <input type="radio" id="Hombre" name="Genero" value="Hombre" class="RadioB">
+                                    <label for="Hombre" class="RadioB">Hombre</label><br>
+
+                                    <input type="radio" id="Mujer" name="Genero" value="Mujer" class="RadioB">
+                                    <label for="Mujer" class="RadioB">Mujer</label><br>
+
+                                    <input type="radio" id="Otro" name="Genero" value="Otro" class="RadioB">
+                                    <label for="Otro" class="RadioB">Otro</label>
+                                </div>
+                                <label for="Edad">Edad</label>
+                                <input type="number" id="Edad" name="Edad" min="14" max="100" placeholder="Entre 14 y 100 años*">
+                            </fieldset>
+                            <p></p>
+                            <label for="Puntualidad">1. ¿Qué tan satisfecho estás con la puntualidad del servicio?*</label>
+                            <p class="Descripcion">Selecciona una opción que refleje tu nivel de satisfacción.</p>
+                            <input list="Puntualidades" name="Puntualidad" id="Puntualidad">
+                            <datalist id="Puntualidades">
+                              <option value="Muy satisfecho">
+                              <option value="Satisfecho">
+                              <option value="Neutral">
+                              <option value="Muy insatisfecho">
+                              <option value="Insatisfecho">
+                            </datalist>
+
+                            <label for="Amabilidad">2. ¿Cómo calificarías la amabilidad del conductor?*</label>
+                            <p class="Descripcion">Indica tu calificación utilizando una escala del 1 al 5, donde 1 es muy bajo y 5 es excelente</p>
+                            <select name="Amabilidad_Conductor" id="Amabilidad">
+                                <option value="5 estrellas">✴️✴️✴️✴️✴️</option>
+                                <option value="4 estrellas">✴️✴️✴️✴️</option>
+                                <option value="3 estrellas">✴️✴️✴️</option>
+                                <option value="2 estrellas">✴️✴️</option>
+                                <option value="1 estrella">✴️</option>
+                            </select>
+
+                            <label for="Recomendacion">3. ¿Recomendarías el servicio de TeleTaxi a tus conocidos?*</label>
+                            <p class="Descripcion">Selecciona si recomendarías o no el servicio de TeleTaxi a otras personas.</p>
+                            <select name="Recomendacion" id="Recomendacion">
+                                <optgroup label="✴️✴️✴️✴️✴️">
+                                  <option value="Satisfecho">Si, definitivamenteo</option>
+                                </optgroup>
+                                <optgroup label="✴️✴️✴️">
+                                  <option value="Neutral">Si, pero con algunas reservas</option>
+                                </optgroup>
+                                <optgroup label="✴️">
+                                <option value="Insatisfecho">No, no lo recomendaria</option>
+                                </optgroup>
+                              </select>
+
+                            <label for="Seguridad">4. ¿Qué tan seguro te sentiste durante el viaje en TeleTaxi?*</label>
+                            <p class="Descripcion">Indica tu sensación de seguridad durante el trayecto.</p>
+                            <select name="Seguridad_viaje" id="Seguridad">
+                                <option value="Muy_seguro">Muy seguro</option>
+                                <option value="Seguro">Seguro</option>
+                                <option value="Neutral">Neutral</option>
+                                <option value="Inseguro">Inseguro</option>
+                                <option value="Muy_inseguro">Muy inseguro</option>
+                            </select>
+
+                            <label for="Frecuencia_servicio">5. ¿Con qué frecuencia utilizas el servicio de TeleTaxi?*</label>
+                            <p class="Descripcion">Indica cuántas veces al mes (aproximadamente) realizas viajes con TeleTaxi.</p>
+                            <div>
+                                <input type="checkbox" id="Frecuencia_servicio1" name="Frecuencia_servicio1" value="+10" class="RadioB">
+                                <label for="Frecuencia_servicio1" class="RadioB">Más de 10 veces al mes</label><br>
+                                <input type="checkbox" id="Frecuencia_servicio2" name="Frecuencia_servicio2" value="5-10" class="RadioB">
+                                <label for="Frecuencia_servicio2" class="RadioB">5-10 veces al mes</label><br>
+                                <input type="checkbox" id="Frecuencia_servicio3" name="Frecuencia_servicio3" value="-5" class="RadioB">
+                                <label for="Frecuencia_servicio3" class="RadioB">Menos de 5 veces al mes</label><br><br>
+                            </div>
+                            <label for="Mejora_servicio">6. ¿Qué mejorarías del servicio de TeleTaxi para aumentar tu satisfacción?*</label>
+                            <p class="Descripcion">Proporciona sugerencias concretas sobre cómo crees que TeleTaxi puede mejorar su servicio.</p>
+                            <textarea id="Mejora_servicio" name="Mejora_servicio" rows="4" cols="50"></textarea>
+                            <input type="submit" id="boton2" onclick="alert('Encuesta enviada!')">
+                    </div>
+                        </div>
+                    </form>
                 </div>
             </div>
         </div>

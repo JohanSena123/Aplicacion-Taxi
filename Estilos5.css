@@ -1,0 +1,133 @@
+div {
+  border: 0px solid black;
+  margin: 10px;
+}
+.Botones {
+  border-radius: none;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  width: 110;
+  background-color: white;
+  border-color: white;
+  cursor: pointer;
+  border: none;
+}
+.Botones:hover {
+  border-block-end: 4px solid yellow;
+}
+
+#DivPrincipal {
+  height: 620px;
+  border-radius: 10px;
+  background-color: rgb(255, 255, 255);
+}
+#DivE0 {
+  display: flex;
+  background-color: white;
+  border-radius: 0px;
+  height: 80;
+  border-block-end: 3px solid black;
+}
+#DivE1 {
+  flex: 2;
+}
+#DivE2 {
+  padding: 15px;
+  flex: 3;
+}
+#DivE3 {
+  padding: 5px;
+  display: flex;
+  flex-direction: row;
+}
+#DivC {
+  display: flex;
+  justify-content: center;
+}
+#DivC1 {
+  width: 595px;
+  height: 1400px;
+  background-color: black;
+  border-radius: 15px;
+}
+#DivC3 {
+  display: flex;
+  flex-direction: column;
+  margin-left: 20px;
+}
+#Imagen1 {
+  width: 100%;
+  height: 100%;
+}
+#Imagen2 {
+  width: 55px;
+  height: 45px;
+}
+h1 {
+  text-align: center;
+  font-family: "Open Sans", sans-serif;
+  color: white;
+}
+.letras {
+  padding-left: 25px;
+  padding-right: 25px;
+  font-size: 17px;
+  font-family: sans-serif;
+  color: white;
+}
+input{
+  width: 400px;
+  height: 30px;
+  border-radius: 10px;
+  background-color: white;
+  margin-left: 50px;
+  margin-top: 5px;
+  margin-bottom: 10px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  border-color: white;
+}
+input:focus {
+  border: 3px solid rgb(255, 230, 0);
+  outline: none;
+  height: 32px;
+}
+#boton1 {
+  width: 150px;
+  height: 50px;
+  border-radius: 15px;
+  margin-left: 10px;
+  margin-top: 30px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 15px;
+  border: none;
+}
+#boton2 {
+  width: 450px;
+  height: 30px;
+  border-radius: 10px;
+  margin-left: 30px;
+  margin-top: 30px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 15px;
+  border: none;
+}
+#boton1:hover {
+  background-color: red;
+  color: white;
+}
+#boton2:hover {
+  background-color: rgb(2, 173, 2);
+  color: white;
+}
+.RadioB{width: 15px;height: 20px;
+margin-left: 5px; font-size: medium;margin-top: 1px;}
+.Legend{padding-left: 5px;}
+.Descripcion{font-size: 11px;color: rgba(4, 255, 0, 0.976);}
+select{width: 400px;
+  height: 30px;
+  border-radius: 10px;
+  background-color: white;
+  margin-left: 50px;
+  margin-top: 5px;
+  margin-bottom: 10px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  border-color: white;}
