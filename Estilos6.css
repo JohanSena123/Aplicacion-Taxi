@@ -57,3 +57,23 @@
 #BotonLogin:hover{
     background-color: yellow;
 }
+#Titulo2{
+    font-size: 50px;
+    font-family: 'Open Sans', sans-serif;
+    color: rgb(0, 0, 0);
+    padding-top: 50px;
+    padding-bottom: 30px;
+    text-align: center;
+}
+#Botons{
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 30px;
+    border:solid 1px rgb(255, 191, 0);
+}
+#Botons:hover {
+    background-color: rgb(2, 173, 2);
+    color: white;
+}

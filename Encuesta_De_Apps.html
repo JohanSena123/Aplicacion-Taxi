@@ -21,10 +21,10 @@
                         <button class="Botones"><p>💳Comisiones</p></button>
                     </a>
                     <a href="Encuesta_de_Servicio.html">
-                        <button class="Botones"><p>Encuesta</p></button>
+                        <button class="Botones"><p>📋 Encuesta 1</p></button>
                     </a>
                     <a href="Encuesta_De_Apps.html">
-                        <button class="Botones"><p>Encuesta</p></button>
+                        <button class="Botones"><p>📋 Encuesta 2</p></button>
                     </a>
                 </div >
                 <div id="DivE3">
@@ -38,22 +38,22 @@
             </div>
             <div id="DivCuerpoEncuesta">
                 <div id="DivFormulario">
-                    <form>
+                    <form action="Mensaje.html">
                         <div id="DivF2">
-                            <h1 id="TituloEncuesta" >Encuesta</h1> 
+                            <h1 id="TituloEncuesta" >Encuesta de App</h1> 
                             <fieldset>
                                 <legend><p id="p">Información Personal</p></legend>
                                 <label for="Nombre">Nombres</label>
-                                <input type="text" id="Nombre" placeholder="Nombres*">
+                                <input type="text" id="Nombre" placeholder="Nombres*" required>
 
                                 <label for="Apellidos">Apellidos</label>
-                                <input type="text" id="Apellidos" placeholder="Apellidos*">
+                                <input type="text" id="Apellidos" placeholder="Apellidos*" required>
 
                                 <label for="Identificacion">Identificacion</label>
-                                <input type="text" id="Identificacion" placeholder="Identificacion*">
+                                <input type="text" id="Identificacion" placeholder="Identificacion*" required>
 
                                 <label for="Correo">Correo electronico</label>
-                                <input type="email" id="Correo" placeholder="Correo electronico*">
+                                <input type="email" id="Correo" placeholder="Correo electronico*" required>
 
                                 <label>Genero</label>
                                 <div>
@@ -72,13 +72,73 @@
                             <p></p>
                             <label for="Frecuencia">1.¿Con qué frecuencia utilizas nuestra app de taxi?</label>
                             <p class="Descripcion">Selecciona una opcion de acuerdo al uso de la app</p>
-                            <input list="Frecuencias" name="Frecuencia" id="Frecuencia">
+                            <input list="Frecuencias" name="Frecuencia" id="Frecuencia" required>
                             <datalist id="Frecuencias">
                                 <option value="Diario">
                                 <option value="Semanal">
                                 <option value="Mensual">
                                 <option value="Ocacionalmente">
                             </datalist>
+                            <p></p>
+                            <label for="Facilidad">2.¿Que tan facil fue registrarte en la app?</label>
+                            <p class="Descripcion">Selecciona una opcion de acuerdo a la facilidad de us</p>
+                            <select name="Fcilidad_de_app" id="Facilidad">
+                                <option value="">Selecionar respuesta</option>
+                                <option value="Muy facil">Muy facil</option>
+                                <option value="Facil">Facil</option>
+                                <option value="Neutral">Neutral</option>
+                                <option value="Dificil">Dificil</option>
+                                <option value="Muy dificil">Muy dificil</option>
+                            </select>
+                            <p></p>
+                            <label for="Calificarias">3.¿Como calificarias la experiencias general de uso de la app?</label>
+                            <p class="Descripcion">Selecciona si recomendarías o no el servicio de TeleTaxi a otras personas.</p>
+                            <select name="Calificar_la_experiencia" id="Calificarias">
+                                <option value="">Seleccionar respuesta</option>
+                                <optgroup label="⭐️⭐️⭐️⭐️⭐️">
+                                  <option value="Excelente">Excelente</option>
+                                </optgroup>
+                                <optgroup label="⭐️⭐️⭐️⭐️">
+                                  <option value="Buena">Buena</option>
+                                </optgroup>
+                                <optgroup label="⭐️⭐️⭐️">
+                                <option value="Regular">Regular</option>
+                                </optgroup>
+                                <optgroup label="⭐️⭐️">
+                                    <option value="Mala">Mala</option>
+                                    </optgroup>
+                                <optgroup label="⭐️">
+                                <option value="Muy mala">Muy mala</option>
+                                </optgroup>
+                              </select>
+                              <p></p>
+                              <label for="Satisfecho">4. ¿Qué tan seguro te sentiste durante el viaje en TeleTaxi?*</label>
+                              <p class="Descripcion">Indica tu sensación de seguridad durante el trayecto.</p>
+                              <select name="Sastifecho_taxi" id="Satisfecho">
+                                  <option value="">Seleccionar respuesta</option>
+                                  <option value="Muy satisfecho">Muy satisfecho</option>
+                                  <option value="Satisfecho">Satisfecho</option>
+                                  <option value="Neutral">Neutral</option>
+                                  <option value="Insatisfecho">Insatisfecho</option>
+                                  <option value="Muy insatisfecho">Muy insatisfecho</option>
+                              </select>
+                              <p></p>
+                              <label for="Mejoras">5.¿Que mejoras te gustaria ver en la app?</label>
+                              <p class="Descripcion">Marca todas las que apliquen.</p>
+                              <div>
+                                  <input type="checkbox" id="Mejoras1" name="Mejoras1" value="+10" class="RadioB">
+                                  <label for="Mejoras1" class="RadioB">Agregar mas metodos de pagos</label><br>
+                                  <input type="checkbox" id="Mejoras2" name="Mejoras2" value="5-10" class="RadioB">
+                                  <label for="Mejoras2" class="RadioB">Mejoras en la interfaz de usuario</label><br>
+                                  <input type="checkbox" id="Mejoras3" name="Mejoras3" value="-5" class="RadioB">
+                                  <label for="Mejoras3" class="RadioB">Mejorar la presicion de la localizacion</label><br><br>
+                              </div>
+                              <p></p>
+                              <label for="Mejora_servicio">6. ¿Qué mejorarías del servicio de TeleTaxi para aumentar tu satisfacción?</label>
+                              <p class="Descripcion">Proporciona sugerencias concretas sobre cómo crees que TeleTaxi puede mejorar su servicio.</p>
+                              <textarea id="Mejora_servicio" name="Mejora_servicio" rows="4" cols="50"></textarea>
+                              <input type="submit" id="boton2">
+                        </div>
                     </form>
                 </div>
             </div>
