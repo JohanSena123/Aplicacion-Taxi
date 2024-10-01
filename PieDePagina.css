@@ -1,0 +1,100 @@
+#PieDePagina1{
+    background: black;
+    width:1250px;
+    padding: 20px;
+    height: 200px;
+    border-radius: 20px;
+    display: inline-flex;
+    justify-content: space-between;
+}
+#BotonNavidad{
+    width: 200px;
+    height: 200px;
+    background-image: url(Navidad.jpg);
+    background-size: cover;
+    background-position: center;
+    padding: 20px;
+    border-radius: 100% 100% 100% 100%;
+    
+}
+#BotonNavidad:hover{
+    animation: rotate 7s linear infinite;
+}
+@keyframes rotate {
+    from {
+        transform: rotate(0deg);
+       
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+#PBotonNavidad{
+    color: black;
+    font-family: Impact;
+    font-size: 30px;
+}
+#Navidad{
+    position:relative;bottom: 148px;
+    position: relative;left:45px;
+}
+
+#BotonHallowen{
+    width: 200px;
+    height: 200px;
+    background-image: url(Hallowen.jpg);
+    background-size: cover;
+    background-position: center;
+    padding: 20px;
+    border-radius: 100% 100% 100% 100%;
+    
+}
+#BotonHallowen:hover{
+    animation: rotate 7s linear infinite;
+}
+@keyframes rotate {
+    from {
+        transform: rotate(0deg);
+       
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+#PBotonHallowen{
+    color: black;
+    font-family: Impact;
+    font-size: 30px;
+}
+#Hallowen{
+    position:relative;bottom: 148px;
+    position: relative;left:40px;
+}
+#Mensaje1{
+    color: white;   
+    width: 400px;
+    height: 180px;
+    border-radius: 20px;
+    background-color: rgb(136, 255, 81);
+}
+#Mensaje1:hover{
+    background-color: rgb(255, 52, 52);
+}
+#Mensaje2{
+    color: white;
+    width: 400px;
+    height: 180px;
+    border-radius: 20px;
+    background-color: rgba(98, 98, 98, 0.779);
+}
+#Mensaje2:hover{
+    background-color: rgb(255, 160, 17);
+}
+.h1{
+    color: black;
+}
+.p{
+    color: black;
+    text-align: center;
+    font-family:Georgia;
+}
