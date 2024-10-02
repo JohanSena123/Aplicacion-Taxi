@@ -1,0 +1,70 @@
+#Padre{
+    border: solid black 2px;
+    background-image: url(image.png);
+    background-size: cover;
+    width: 1300px;
+    height: 900px;
+}
+.CoposNievePar{
+    font-size: 70px;
+    animation:Par 10s infinite;
+    animation-delay: 2s;
+    z-index: 1;
+}
+@keyframes Par {
+    0% {
+    transform: translateY(0);
+    opacity: 100%;
+    }
+    20% {
+    opacity: 80%;
+    }
+    40% {
+    opacity: 60%;
+    }
+    60% {
+    opacity: 40%;
+    }
+    80% {
+        opacity: 20%;
+    }
+    100%{
+        opacity: 0%;
+        transform: translateY(600px);
+    }
+}  
+.CoposNieveImpar{
+    font-size: 70px;
+    animation: Impar 10s infinite;
+    animation-delay: 1s;
+    z-index: 1;
+}
+@keyframes Impar {
+    0% {
+    transform: translateY(0);
+    opacity: 100%;
+    }
+    20% {
+    opacity: 80%;
+    }
+    40% {
+    opacity: 60%;
+    }
+    60% {
+    opacity: 40%;
+    }
+    80% {
+        opacity: 20%;
+    }
+    100%{
+        opacity: 0%;
+        transform: translateY(600px);
+    }
+}  
+#Carta{
+    width: 800px;
+    height: 800px;
+    border: solid black 2px;
+    position: relative;left: 50px;bottom: 600px;
+
+}
