@@ -114,8 +114,10 @@ h2{
 
 .Fantasma2{
   position: relative;
-  bottom: 50px;
+  bottom: 80px;
   animation: animafantasma2 10s ease-in-out infinite;
+  width: 150px;
+  height: 100px;
 }
 @keyframes animafantasma2{
   0%,100%{
@@ -129,6 +131,8 @@ h2{
   position: relative;
   bottom: 2px;
   animation: animaAuto 40s ease-in-out infinite;
+  width: 30px;
+  height: 30px;
 }
 @keyframes animaAuto{
   0%,100%{
@@ -137,3 +141,21 @@ h2{
   50%{
       transform: translateX(0px);
 }}
+
+.letra{font-family: Arial, Helvetica, sans-serif;animation: animaLeter 1s ease-in-out infinite;}
+@keyframes animaLeter{
+  0%,100%{
+      font-family: 'Times New Roman', Times, serif;
+  }
+
+  50%{
+      font-family:sans-serif;
+}}
+
+.kranky-regular {
+  font-family: "Kranky", serif;
+  font-weight: 400;
+  font-style: normal;
+  color: white;
+  font-size: larger;
+}
