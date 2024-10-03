@@ -1,5 +1,5 @@
 #Padre{
-    border: solid black 2px;
+    border: solid black 0px;
     background-image: url(image.png);
     background-size: cover;
     width: 1300px;
@@ -62,9 +62,24 @@
     }
 }  
 #Carta{
-    width: 800px;
-    height: 800px;
-    border: solid black 2px;
-    position: relative;left: 50px;bottom: 600px;
-
+    width: 500px;
+    height: 600px;
+    border: solid black 0px;
+    position: relative;left: 400px;bottom: 550px;
+    background-image: url(Tarjeta.jpg);
+    border-radius: 20px;
+}
+#Pc{
+    font-family: 'Playwrite DE Grund', sans-serif;
+    font-size: 20px;
+}
+#Pc2{
+    font-family: 'Great Vibes', cursive;
+    font-size: 30px;
+    position: relative;top: 70px;left: 70px;
+}
+#Mensaje{
+    width: 300px;
+    height:300px;
+    position: relative;left: 60px;top: 30px;
 }
